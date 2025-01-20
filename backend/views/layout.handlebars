@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Template</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .email-container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+      .content {
+        font-size: 16px;
+        color: #333;
+      }
+      .footer {
+        text-align: center;
+        font-size: 12px;
+        color: #888;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <!-- Name Placeholder -->
+      <h1>{{name}}</h1>
+
+      <!-- Content Placeholder -->
+      <div class="content">
+        <p style="color: {{contentColor}}; font-size: {{contentFontSize}}px; text-align: {{contentAlignment}};">
+          {{contentText}}
+        </p>
+      </div>
+
+      <!-- Image Placeholder -->
+      <div>
+        {{#if image}}
+          <img src="{{image}}" alt="Template Image" style="max-width: 100%; height: auto;" />
+        {{else}}
+          <p>No image available</p>
+        {{/if}}
+      </div>
+
+      <!-- Footer Placeholder -->
+      <div class="footer">
+        <p style="color: {{footerColor}}; font-size: {{footerFontSize}}px; text-align: {{footerAlignment}};">
+          {{footerText}}
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

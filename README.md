@@ -58,18 +58,13 @@ Ensure you have the following installed:
 3. **Install server dependencies:**
 
    ```bash
-   cd server
+   cd backend
    npm install
    ```
 
-4. **Install client dependencies:**
 
-   ```bash
-   cd ../backend
-   npm install
-   ```
 
-5. **Start the development server:**
+4. **Start the development server:**
 
    - In the `terminal` directory, run:
 
@@ -78,7 +73,7 @@ Ensure you have the following installed:
      ```
 
 
-6. **Access the application:**
+5. **Access the application:**
 
    Open your browser and navigate to `http://localhost:${port}`.
 
@@ -96,9 +91,7 @@ Ensure you have the following installed:
 - **POST /uploadEmailConfig**: Save the email template configuration.
 - **POST /renderAndDownloadTemplate**: Generate and download the customized HTML template.
 
-## 🌐 Deployment
 
-The application is hosted on [Netlify]. You can access it via this [https://moonlit-caramel-1df034.netlify.app/](#).
 
 ## 🤝 Contributing
 

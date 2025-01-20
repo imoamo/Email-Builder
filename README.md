@@ -65,27 +65,22 @@ Ensure you have the following installed:
 4. **Install client dependencies:**
 
    ```bash
-   cd ../client
+   cd ../backend
    npm install
    ```
 
 5. **Start the development server:**
 
-   - In the `server` directory, run:
+   - In the `terminal` directory, run:
 
      ```bash
      npm run dev
      ```
 
-   - In the `client` directory, run:
-
-     ```bash
-     npm start
-     ```
 
 6. **Access the application:**
 
-   Open your browser and navigate to `http://localhost:3000`.
+   Open your browser and navigate to `http://localhost:${port}`.
 
 ## 📝 Usage
 
@@ -103,7 +98,7 @@ Ensure you have the following installed:
 
 ## 🌐 Deployment
 
-The application is hosted on [Your Hosting Service]. You can access it via this [public URL](#).
+The application is hosted on [Netlify]. You can access it via this [https://moonlit-caramel-1df034.netlify.app/](#).
 
 ## 🤝 Contributing
 
